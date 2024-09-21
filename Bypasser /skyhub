@@ -1,3 +1,4 @@
+
 --[[
 
 Bypasser Hub
@@ -26,6 +27,26 @@ Road to Gramby scripts by Lua_u
 
 
 ]]--
+game.StarterGui:SetCore('SendNotification', {
+Title = 'Byasser/Skyhub ';
+Text = 'Injected';
+Icon = 'rbxassetid://13772180932';
+Duration = 3;
+})
+wait(2)
+print("Injected to WinAPI")
+print("Credits To: Ergi Kapllani!")
+print([[
+
+██████╗ ██╗   ██╗██████╗  █████╗ ███████╗███████╗███████╗██████╗
+██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗
+██████╔╝ ╚████╔╝ ██████╔╝███████║███████╗███████╗█████╗  ██████╔╝
+██╔══██╗  ╚██╔╝  ██╔═══╝ ██╔══██║╚════██║╚════██║██╔══╝  ██╔══██╗
+██████╔╝   ██║   ██║     ██║  ██║███████║███████║███████╗██║  ██║
+╚═════╝    ╚═╝   ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
+
+]])
+printidentity()
 if game:GetService("CoreGui"):FindFirstChild("incognito") then
     oldstring = loadstring
     getfenv().loadstring = function(code)
